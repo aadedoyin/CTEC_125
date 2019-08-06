@@ -1,0 +1,10 @@
+#Code: convert Celsius to fahrenheit
+
+Celsius = int(input("Give me Celsius: "))
+nine = 9
+five = 5
+thirty_two = 32
+nine_five = float(9/5)
+product = nine_five * Celsius
+fahrenheit = product + thirty_two
+print(fahrenheit)
