@@ -1,0 +1,9 @@
+#code: Finds the total & average distance in a race with 3 different segments
+
+segment1 = int(input("What is time 1?"))
+segment2 = int(input("What is time 2?"))
+segment3 = int(input("What is time 3?"))
+total_segment = segment1 + segment2 + segment3
+average_segment = float(total_segment / 3)
+print("Total time distance = ", total_segment)
+print("Average time distance = ", average_segment)
