@@ -1,0 +1,7 @@
+#Code: Pay for an employee
+#Code: The purpose of this code is to find out how much an employee makes based on the answers to the questions asked
+
+pay_rate = float(input("How much you making an hour: "))
+hours = float(input("How many hours did you work: "))
+pay = pay_rate * hours
+print("Pay = ", pay)
