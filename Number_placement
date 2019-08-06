@@ -1,0 +1,10 @@
+#code: Given a number, between 0 and 999, it will tell you what is in the ones, tens, and hundreds place.
+
+number = int(input("What is the number? : "))
+hundreds = int(number / 100)
+number %= 100
+tens = int(number / 10)
+number %= 10
+ones = int(number)
+print("Hundreds place = ", hundreds, "Tens place = ", tens,
+"Ones place = ", ones)
