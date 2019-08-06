@@ -1,0 +1,10 @@
+#code: If the discriminant is negative, positive or zero
+#The purpose of is code is to find the discriminant of a polynomial.
+
+a = int(input("What is the number of a?: "))
+b = int(input("What is the number of b?: "))
+c = int(input("What is the number of c?: "))
+discriminant = ((b*b)-(4*a*c))
+if(discriminant < 0): print("No Root")
+elif(discriminant == 0): print("One Root")
+else: print("Two Roots")
