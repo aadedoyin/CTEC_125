@@ -1,0 +1,7 @@
+#Code: commission for a salesperson
+#This code finds the rate of commission for a salesperson
+
+commission_rate = float(input("What is your commission rate? "))
+sales = int(input("How much did you sell? $"))
+commission = commission_rate*sales
+print("commission = " , commission)
