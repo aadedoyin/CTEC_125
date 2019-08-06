@@ -1,0 +1,12 @@
+#code: Given a number, upto three digits, computes the sum
+
+number = int(input("Input any number.(Up to three digits): "))
+if(number > 999 or number < 0): print("You number is invaild")
+else:
+    number_1 = int(number / 100)
+    number %= 100
+    number_2 = int(number / 10)
+    number %= 10
+    number_3 = int(number)
+    total = number_1+number_2+number_3
+    print("Sum of your number = ", total)
