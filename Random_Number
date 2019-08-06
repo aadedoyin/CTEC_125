@@ -1,0 +1,10 @@
+#Code: This code will prompt user for two interger numbers and output a random number between them
+#This will include the numbers inputed as well
+
+import random
+num1 = int(input("Type in your first interger number: "))
+num2 = int(input("Type in your second interger number: "))
+while(num1 > num2):
+	num2 = int(input("Please type in a number greater than the first number: "))
+
+print("The numbers you entered are ", num1,"and", num2,"random number inbetween: ", random.randint(num1,num2))
