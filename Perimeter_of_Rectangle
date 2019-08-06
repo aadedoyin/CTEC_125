@@ -1,0 +1,9 @@
+#Code: calculate perimeter of a rectangle
+
+length = int(input("Give me length: "))
+width = int(input("Give me width: "))
+two = 2
+length_2 = length * two
+width_2 = width * two
+perimeter = length_2 + width_2
+print("Perimeter: ", perimeter)
