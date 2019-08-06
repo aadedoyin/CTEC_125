@@ -1,0 +1,9 @@
+#code for age
+#This program is to ask the user to type in a number, corresponding their age, and returning the classification of their age.
+age = int(input("How old are you? "))
+if (age > 18): print("adult")
+elif (age <= 5): print("toddler")
+elif (age > 6 and age <= 10):print ("child")
+elif (age > 11 and age <= 12): print ("preteen")
+elif (age > 12 and age <=18): print("teen")
+else:print("unknown age")
