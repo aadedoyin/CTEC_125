@@ -1,0 +1,12 @@
+#code: compute miles per gallon a car gets on a trip; given the amount in gallons of the fill ups and the starting miles
+
+start_miles = int(input("What is the start miles? : "))
+end_miles = int(input("What is the end miles? : "))
+total_miles = end_miles - start_miles
+gallon1 = float(input("How many gallons were for the 1st fill up? : "))
+gallon2 = float(input("How many gallons were for the 2nd fill up? : "))
+gallon3 = float(input("How many gallons were for the 3rd fill up? : "))
+gallon4 = floatt(input("How many gallons were for the 4th fill up? : "))
+total_gallons = gallon1+gallon2+gallon3+gallon4
+miles_per_gallon = total_miles / total_gallons
+print("Miles Per Gallon = ", miles_per_gallon)
