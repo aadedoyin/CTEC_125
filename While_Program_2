@@ -1,0 +1,27 @@
+#Please complete the following While Programs, this is one submission.  Please submit this under WhilePgm2:
+#Please complete the Algorithm, pseudocode, flowchart, test cases and the source code for the following programs:
+#Program 1.  Write a program that prompts the user for a number and then sums the odd numbers from 1 to the number entered
+#Program 2:  Write a program that prompts the user for a number and then displays its factorial.  The factorial of a number is the product of all the positive integers from 1 to the number.  
+#For example, 5! = 5 * 4 * 3 * 2 * 1.
+
+#program 1
+number = int(input("Please input a number. "))
+count = 1
+value = 0
+while(count <= number):
+	if (count % 2 == 1):
+		value += count
+		count += 1
+	else:
+		count += 1
+print("The sum of all the odd numbers from your number is: ", value)
+
+#program 2
+number_first = int(input("Please input a number. "))
+number = number_first
+factorial = 1
+while (number > 0):
+	factorial *= (number)
+	number -= 1
+	
+print(number_first,"! =", factorial)
