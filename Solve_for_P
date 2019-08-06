@@ -1,0 +1,8 @@
+#code: Given and Equation, Solve for p
+
+#P= 5F/4d^2
+print("The Equation is P = 5F/4d^2")
+f = int(input("What is f? : "))
+d = int(input("What is d? : "))
+p = float(5*f/(4*(d**2)))
+print("P is = ", p)
