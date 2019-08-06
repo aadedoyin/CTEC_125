@@ -1,0 +1,12 @@
+#Please complete the following While Programs, this is one submission.  
+#Please submit this under WhilePgm3:
+#Please complete the Algorithm, pseudocode, flowchart, test cases and the source code for the following programs:
+#Program 1.  Write a program that prompts the user for 10 different ages and then print the average age
+
+count = 0
+age = 0
+while(count < 10):
+	number = int(input("Please input an age. "))
+	age += number
+	count += 1
+print("The Average of all ages entered is: ", int(age/count))
