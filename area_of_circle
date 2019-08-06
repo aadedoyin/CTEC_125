@@ -1,0 +1,9 @@
+#code: Area of a circle
+#This code is to compute the area of a cirle 
+
+pi = 3.14
+
+radius = float(input("What is the radius of the circle?" ))
+radius *= radius
+area = pi*radius
+print("The radius of the circle is: ", area)
