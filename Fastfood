@@ -1,0 +1,18 @@
+#code: fast food
+#This code is to ask how much of a certain item you purchased and output the total cost.
+
+burgers = 1.69
+fries = 1.09
+soda = .99
+
+total_burgers = int(input("Input number of burgers: "))
+total_fries = int(input("Input number of fries: "))
+total_sodas = int(input("Input number of sodas: "))
+
+total_burgers *= burgers
+total_fries *= fries
+total_sodas *= soda
+
+total_food = total_burgers+total_fries+total_sodas
+
+print("Your total is: ", total_food)
