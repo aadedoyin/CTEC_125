@@ -1,2 +1,2 @@
 # CTEC_125
-A list of projects I coded in for my Python Class
+A list of projects and assignemnts I coded for my Python Class at Bowie State University
